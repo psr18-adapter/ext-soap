@@ -1,0 +1,20 @@
+{
+  "name": "psr18-adapter/ext-soap",
+  "autoload": {
+    "psr-4": {
+      "Psr18Adapter\\Soap\\": "src/"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "keywords": ["soap", "ext-soap", "psr-18"],
+  "license": "MIT",
+  "homepage": "https://github.com/psr18-adapter/ext-soap",
+  "require": {
+    "php": ">=7.0",
+    "ext-soap": "*",
+    "psr/http-client": "^1.0",
+    "psr/http-factory": "^1.0"
+  }
+}
